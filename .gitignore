@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Local secrets (keep .env.example)
+.env
+
+# Vector index and source PDFs (regenerate with `python main.py --ingest`)
+chroma_db/
+chroma_db_building/
+data/*.pdf
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
